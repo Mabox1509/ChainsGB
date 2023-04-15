@@ -7,7 +7,10 @@
 
 void main()
 {
-    set_bkg_data(1, 11, TilesGrid);
+    set_bkg_data(1, 22, TilesGrid);
+    SHOW_BKG;
+
+    delay(10);
 
     Load(SCENE_SPACE);
 
@@ -16,7 +19,6 @@ void main()
         Update();
 
         wait_vbl_done();
-        delay(10);
     }
     
 }
