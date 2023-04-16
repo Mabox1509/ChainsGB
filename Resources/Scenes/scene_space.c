@@ -2,7 +2,7 @@
  // Autor: Mabox1509 //
 //////////////////////
 
-#include "..\Sprites\Space.c"
+#include "../Sprites/Space.c"
 #include <gb/gb.h>
 
 //STRUCS
